@@ -1,7 +1,7 @@
 {
   "name": "webpack-starter-kit",
   "version": "1.1.0",
-  "description": "",
+  "description": "## Developing",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
@@ -11,15 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roman-denysenko/[name_repo].git"
+    "url": "git+https://github.com/roman-denysenko/goit-js-hw-11-timer.git"
   },
   "keywords": [],
   "author": "",
-  "license": "",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "https://roman-denysenko.github.io/[name_repo]",
+  "license": "ISC",
+  "homepage": "https://roman-denysenko.github.io/goit-js-hw-11-timer",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -51,5 +48,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6"
+  },
+  "bugs": {
+    "url": ""
   }
 }
