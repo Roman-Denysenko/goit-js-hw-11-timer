@@ -10,3 +10,20 @@ body {
   line-height: 1.5;
   color: #2a2a2a;
 }
+
+.timer {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 500;
+}
